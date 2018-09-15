@@ -1,0 +1,42 @@
+/* Cascading StyleSheets */
+/* CSS selector */
+body {
+	background-color: rgb(174, 174, 174);
+}
+span {
+	background-color: #aeaeae;
+	display: inline-block;
+	font-size: 48px;	
+	padding: 15px 50px;
+	text-transform: uppercase;
+}
+.navigation li {
+	display: inline-block;
+	padding: 15px 25px;
+	list-style-type: none;
+}
+
+.header {
+	background-color: rgb(231, 229, 230);
+	display: block;
+	padding: 30px;
+}
+.main {
+	background-color: rgb(243, 239, 240);
+	float: left;
+	display: block;
+	width: 70%;
+	min-height: 600px;
+}
+.sidebar {
+	background-color: rgb(206, 204, 205);
+	float: left;
+	display: block;
+	min-height: 600px;
+}
+footer {
+	clear: left;
+	background-color: rgb(81, 79, 80);
+	font-size: 14px;
+	padding: 9px 0;
+}
